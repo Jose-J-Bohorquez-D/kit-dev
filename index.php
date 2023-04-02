@@ -1,169 +1,189 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Kit-Dev</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-  </head>
-  <body style="background-color: black;">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Kit-Dev-TPS</title>
 
-<nav class="navbar bg-primary navbar-expand-lg" data-bs-theme="dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Kit-Dev</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.php">Inicio</a>
-        </li><!--
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>-->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Cuentas-Donaciones
+	<link rel="stylesheet" type="text/css" href="bulma/css/bulma.min.css">
+
+</head>
+<body><!--
+<div class="container">
+	<div class="columns is-mobile is-tablet is-desktop">
+	  <div class="column">1</div>
+	  <div class="column">2</div>
+	  <div class="column">3</div>
+	  <div class="column">4</div>
+	</div>
+</div>-->
+
+
+
+<section class="hero is-info is-large">
+  <!-- Hero head: will stick at the top -->
+  <div class="hero-head">
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item">
+          	<h1 class="title">kit-for-dev´s</h1>
+            <!--<img src="https://bulma.io/images/bulma-type-white.png" alt="Logo">-->
           </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Veci</a></li>
-            <li><a class="dropdown-item" href="#">Dale</a></li>
-            <li><a class="dropdown-item" href="#">Movii</a></li>
-            <li><a class="dropdown-item" href="#">Nequi</a></li>
-            <li><a class="dropdown-item" href="#">Daviplata</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">3178773186</a></li>
-          </ul>
-        </li><!--
-        <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
-        </li>
-      </ul>-->
-      <form class="d-flex" role="search"><!--
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>-->
-      </form>
-    </div>
-  </div>
-</nav>
-
-
-
-<div class=" text-center" style="color: white;">
-    <h1>Materiales de apoyo</h1>
-    <p>este material de apoyo lo suministra Jose</p>   
-    <p>aplicaciones impresindibles 
-    para tu formacion</p>
-</div>
-
-
-<br>
-
-<div class="container d-flex justify-content-evenly align-items-center text-center justify-content-center">
-
-  <div class="row">
-
-    <div class="col">
-
-      <div class="card" style="width: 18rem;">
-        <img src="imgs/ksweb.webp" class="img-thumbnail rounded float-start">
-        <div class="card-body">
-          <h5 class="card-title">KSWEB PRO</h5>
-          <p class="card-text">  </p>
-          <a href="https://drive.google.com/file/d/1-O3UI2kjw4F0--96qkn3A5r2lZccA68V/view?usp=share_link" target="_blank" class="btn btn-primary">Descargar</a>
+          <span class="navbar-burger" data-target="navbarMenuHeroA">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
         </div>
-      </div><br><br>
+        <div id="navbarMenuHeroA" class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item">
+              Inicio
+            </a>
+            <a class="navbar-item">
+              Examples
+            </a>
+            <a class="navbar-item">
+              Documentation
+            </a>
+            <span class="navbar-item">
 
-      <div class="card" style="width: 18rem;">
-        <img src="imgs/acode.webp" class="img-thumbnail rounded float-start">
-        <div class="card-body">
-          <h5 class="card-title">ACODE PRO</h5>
-          <p class="card-text">  </p>
-          <a href="https://drive.google.com/file/d/14t5oyKwfRgODGsxyjUMlARzQXfiH_5_Q/view?usp=share_link" target="_blank" class="btn btn-primary">Descargar</a>
-        </div>
-      </div><br><br>
+            	<div class="dropdown">
+							  <div class="dropdown-trigger">
+							    <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
+							      <span>Click me</span>
+							      <span class="icon is-small">
+							        <i class="fas fa-angle-down" aria-hidden="true"></i>
+							      </span>
+							    </button>
+							  </div>
+							  <div class="dropdown-menu" id="dropdown-menu3" role="menu">
+							    <div class="dropdown-content">
+							      <a href="#" class="dropdown-item">
+							        Overview
+							      </a>
+							      <a href="#" class="dropdown-item">
+							        Modifiers
+							      </a>
+							      <a href="#" class="dropdown-item">
+							        Grid
+							      </a>
+							      <a href="#" class="dropdown-item">
+							        Form
+							      </a>
+							      <a href="#" class="dropdown-item">
+							        Elements
+							      </a>
+							      <a href="#" class="dropdown-item">
+							        Components
+							      </a>
+							      <a href="#" class="dropdown-item">
+							        Layout
+							      </a>
+							      <hr class="dropdown-divider">
+							      <a href="#" class="dropdown-item">
+							        More
+							      </a>
+							    </div>
+							  </div>
+							</div>
 
-    </div><br><br>
+							<button class="js-modal-trigger" data-target="modal-js-example">registro</button>
 
-    <div class="col">
-
-      <div class="card" style="width: 18rem;">
-        <img src="imgs/esFileEx.webp" class="img-thumbnail rounded float-start">
-        <div class="card-body">
-          <h5 class="card-title">ES FILE EXPLORER PRO</h5>
-          <p class="card-text">  </p>
-          <a href="https://drive.google.com/file/d/1PJKAZcQ-Io3ZvVUHmYZF5pyrgo8De6Hs/view?usp=share_link" target="_blank" class="btn btn-primary">Descargar</a>
-        </div>
-      </div><br><br>
-
-      <div class="card" style="width: 18rem;">
-        <img src="imgs/termux.webp" class="img-thumbnail rounded float-start">
-        <div class="card-body">
-          <h5 class="card-title">TERMUX</h5>
-          <p class="card-text">  </p>
-          <a href="https://drive.google.com/file/d/1aAkifGbVQt1E2FRyTqa4XGBu_-s5IAl8/view?usp=share_link" target="_blank" class="btn btn-primary">Descargar</a>
-        </div>
-      </div><br><br>
-
-    </div><br><br>
-
-    <div class="col">
-
-      <div class="card" style="width: 18rem;">
-        <img src="imgs/wps.webp" class="img-thumbnail rounded float-start">
-        <div class="card-body">
-          <h5 class="card-title">WPS(office) PRO</h5>
-          <p class="card-text">  </p>
-          <a href="https://drive.google.com/file/d/1LqtqMIeqtsCOyOgxVUYVuhAvXWzmaQbd/view?usp=share_link" target="_blank" class="btn btn-primary">Descargar</a>
-        </div>
-      </div><br><br>
-
-    </div><br><br>
-
-  </div>
-
-</div>
-
-
-  <div class=" text-center" style="color: white;">
-    <h1>Libros de apoyo</h1>
-    <p>este material de apoyo lo suministra Jose</p>   
-    <p>libros esenciales para una buena apropiacion del conocimiento</p>
-</div><br><br>
-<section class="container d-flex justify-content-evenly  text-center ">
-
-  <div class="row d-flex justify-content-center">
-    <div class="col">
-
-      <div class="card" style="width: 18rem;">
-        <img src="imgs/pdf.webp" class="img-thumbnail rounded float-start" height="150px" width="150px">
-        <div class="card-body">
-          <h5 class="card-title">GIT pro (Libro PDF)</h5>
-          <p class="card-text">  </p>
-          <a href="libros/git.pdf" target="_blank" class="btn btn-primary">Descargar</a>
-        </div>
-      </div><br><br>
-
-      <div class="card" style="width: 18rem;">
-        <img src="imgs/pdf.webp" class="img-thumbnail rounded float-start" height="150px" width="150px">
-        <div class="card-body">
-          <h6 class="card-title">html,css y javascript (Libro PDF)</h6>
-          <p class="card-text">  </p>
-          <a href="libros/html,css,javascript.pdf" target="_blank" class="btn btn-primary">Descargar</a>
+            </span>
+          </div>
         </div>
       </div>
+    </nav>
+  </div>
 
+  <!-- Hero content: will be in the middle -->
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <div class="columns">
+      	<div class="column is-5">
+      		<h1 class="title">Acompañamiento para autodidactas</h1><br>
+      		<h2 class="subtitle">contenido didactico,variado y sin rodeos para amantes del aprendizaje, desarrollo y dedicacion autonomos</h2>
+      		<button class="button is-success is-outlined">Ver Contenido</button>
+      	</div>
+      	<div class="column is-5"></div>
+      </div>
     </div>
   </div>
+
+  <!-- Hero footer: will stick at the bottom 
+  <div class="hero-foot">
+    <nav class="tabs">
+      <div class="container">
+        <ul>
+          <li class="is-active"><a>Overview</a></li>
+          <li><a>Modifiers</a></li>
+          <li><a>Grid</a></li>
+          <li><a>Elements</a></li>
+          <li><a>Components</a></li>
+          <li><a>Layout</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>-->
 </section>
 
-    
+	<style type="text/css">
+		body{
+			height: 1000px;
+		}
+		.hero{
+			background-image: url(imgs/ambiente.jpg);
+			position: relative;
+			background-size: cover;
+			background-position: center;
+		}
+		.hero::before{
+			content: "";
+			width: 100%;
+			height: 100%;
+			background: #000000;
+			opacity: 0.7;
+			position: absolute;	
+		}
+		.hero-body{
+			position: relative;
+		}
+
+	</style>
 
 
+<div class="modal" id="modal-js-example">
+  <div class="modal-background is-primary"></div>
+  <div class="modal-card">
+    <header class="modal-card-head">
+      <p class="modal-card-title">Registro</p>
+      <button class="delete" aria-label="close"></button>
+    </header>
+    <section class="modal-card-body">
+      <div class="container">
+      	<div class="field">
+				  <label class="label">Correo</label>
+				  <div class="control">
+				    <input class="input" type="text" placeholder="Text input">
+				  </div>
+				</div>
+				<div class="field">
+				  <label class="label">Contraseña</label>
+				  <div class="control">
+				    <input class="input" type="text" placeholder="Text input">
+				  </div>
+				</div>
+      </div>
+    </section>
+    <footer class="modal-card-foot">
+      <button class="button is-success">Registrarme</button>
+      <button class="button">Cancelar</button>
+    </footer>
+  </div>
+</div>
 
-
-<br><br><br><br>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
-  </body>
+<script type="text/javascript" src="funciones.js"></script>
+</body>
 </html>
